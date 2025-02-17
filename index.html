@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="" />
+  </head>
+  <body class="bg-red-900 text-white">
+    <!-- Header -->
+    <header class="p-6 flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Ratchanon</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="hover:text-gray-400">About</a></li>
+          <li><a href="#skills" class="hover:text-gray-400">Skills</a></li>
+          <li><a href="#contact" class="hover:text-gray-400">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      id="about"
+      class="flex flex-col items-center justify-center text-center py-20"
+    >
+      <h2 class="text-4xl font-bold">Hello, I'm Zent !</h2>
+      <p class="mt-4 text-gray-400">
+        I'm a student who learn about web programming
+      </p>
+      <p class="mt-4 text-gray-400">My major is Information Technology</p>
+      <p class="mt-4 text-gray-400">
+        I'm form Science and Industrial Technology
+      </p>
+      <img
+        src="src/img/unnamed.jpg"
+        alt=""
+        class="mt-6 mx-auto w-48 h-48 rounded-full object-cover"
+      />
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="py-20 text-center bg-orange-900">
+      <h2 class="text-3xl font-bold">Skills</h2>
+      <div class="mt-6 flex justify-center space-x-6">
+        <span class="bg-yellow-600 p-3 rounded">HTML</span>
+        <span class="bg-yellow-600 p-3 rounded">CSS</span>
+        <span class="bg-yellow-600 p-3 rounded">Badminton</span>
+        <span class="bg-yellow-600 p-3 rounded">Video games</span>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-20 text-center bg-orange-900">
+      <h2 class="text-3xl font-bold mb-5">Contact</h2>
+      <div
+        class="grid grid-cols-1 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 gap-6 justify-items-center"
+      >
+        <div class="flex flex-col items-center">
+          <img
+            src="https://i.pinimg.com/474x/b3/b1/2d/b3b12db9356d9b5fa205fb35f3c27e94.jpg"
+            class="w-20 h-20 rounded-full object-cover"
+          />
+          <p class="text-white mt-2">6640011073@psu.ac.th</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img
+            src="https://i.pinimg.com/474x/42/81/f1/4281f1ab348f8e71eefba010d277daeb.jpg"
+            class="w-20 h-20 rounded-full object-cover"
+          />
+          <p class="text-white mt-2">Ratchanon Srisuwan</p>
+        </div>
+        <div class="flex flex-col items-center">
+          <img
+            src="https://i.pinimg.com/474x/de/e9/bb/dee9bb672a2a3ffb8d5a080a6da89471.jpg"
+            class="w-20 h-20 rounded-full object-cover"
+          />
+          <p class="text-white mt-2">rxnsrw_</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
